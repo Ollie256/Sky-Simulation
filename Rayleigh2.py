@@ -22,8 +22,8 @@ def rayDirf(rayAzimuth, rayElevation):
     rayDir = [np.cos(rayElevation*np.pi/180)*np.cos(rayAzimuth*np.pi/180), np.cos(rayElevation*np.pi/180)*np.sin(rayAzimuth*np.pi/180), np.sin(rayElevation*np.pi/180)]   
     return rayDir
 
-#rayDir = rayDirf(0, 20)
-#sunDir = sunDirf(0, 20)
+#rayDir = rayDirf(10, 20)
+#sunDir = sunDirf(10, 20)
 
 numOpticalDepth = 8
 numView = 16
